@@ -1,0 +1,19 @@
+run:
+  warn: false
+  hide: null
+  shell: /bin/bash
+  pty: false
+  fallback: true
+  env: {}
+  echo: false
+  encoding: null
+  out_stream: null
+  err_stream: null
+  in_stream: null
+  watchers: []
+  echo_stdin: null
+tasks:
+  dedupe: true
+  auto_dash_names: true
+  collection_name: invoke_tasks
+#  search_root: {CWD}/tasks

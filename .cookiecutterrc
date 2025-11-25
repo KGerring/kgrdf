@@ -1,0 +1,37 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary project-path
+#
+# See:
+#    https://pypi.python.org/pypi/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=project-path/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+
+    _checkout:                 None
+    _copy_without_render:      ['*_template.rst', 'news/*']
+    _output_dir:               '/Users/kristen/repos'
+    _repo_dir:                 'pycutter'
+    _template:                 'pycutter'
+    command_line_interface_bin_name: 'kg_rdf'
+    distribution_name:         'kgrdf'
+    email:                     'KGerring@gmail.com'
+    full_name:                 'KGerring'
+    github_username:           'KGerring'
+    package_name:              'kgrdf'
+    project_name:              'kgrdf'
+    project_short_description: 'kgrdf repo'
+    release_date:              'today'
+    repo_name:                 'kgrdf'
+    sphinx_theme:              'sphinx-rtd-theme'
+    version:                   '0.1.0'
+    website:                   'https://github.com/KGerring'
+    year:                      'now'
